@@ -1,3 +1,5 @@
+-- MASIH BELUM DIKASIH KOMEN
+
 --SELECT * FROM dbo.EmployeeDemographics
 
 --SELECT Gender, COUNT(*) AS Number FROM dbo.EmployeeDemographics GROUP BY Gender
