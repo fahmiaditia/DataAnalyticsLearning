@@ -17,3 +17,5 @@
 --SELECT EmployeeID, FirstName, LastName FROM dbo.EmployeeDemographics WHERE FirstName LIKE 'A%' AND LastName IS NOT NULL ORDER BY FirstName
 
 --SELECT COUNT(*) AS TOTAL_FIRSTNAME_STARTEDBY_A FROM dbo.EmployeeDemographics WHERE FirstName LIKE '%A' AND Age >= 40;
+
+-- SELECT Gender, COUNT(Gender) AS Gender_Count FROM EmployeeDemographics GROUP BY Gender ORDER BY Gender_Count ASC
